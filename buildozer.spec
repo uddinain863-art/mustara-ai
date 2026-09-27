@@ -5,10 +5,10 @@ package.domain = org.mustara
 source.dir = .
 source.include_exts = py,png,jpg,kv,atlas
 version = 0.1
-requirements = python3,kivy,urllib3
+requirements = python3,kivy==2.3.0,urllib3
 orientation = portrait
 fullscreen = 0
-android.archs = arm64-v8a, armeabi-v7a
+android.archs = arm64-v8a
 android.allow_backup = True
 android.api = 33
 android.minapi = 21
